@@ -13,18 +13,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+Route::get('/', 'Guest\PageController@index');
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
 
+// Route for users
+// Route::get('/home', 'HomeController@index')->name('home');
 
-
-
-Route::get('admin', 'Users\Admin\AdminController@index')->name('dashboard');
+Route::get('admin', 'Users\Admin\AdminController@index')->name('admin.dashboard');
 
 // Admin routes
 Route::prefix('admin')->name('admin.')->namespace('Auth')->group(function () {
@@ -36,7 +34,8 @@ Route::prefix('admin')->name('admin.')->namespace('Auth')->group(function () {
 
 
 
-Route::get('doctor', 'Users\Doctor\DoctorController@index')->name('dashboard');
+
+Route::get('doctor', 'Users\Doctor\DoctorController@index')->name('doctor.dashboard');
 
 // Doctor routes
 Route::prefix('doctor')->name('doctor.')->namespace('Auth')->group(function () {

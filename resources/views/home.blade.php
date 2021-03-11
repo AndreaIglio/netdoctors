@@ -1,3 +1,4 @@
+DONTFUCKINGTOUCHIT
 @extends('layouts.app')
 
 @section('content')
