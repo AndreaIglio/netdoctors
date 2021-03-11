@@ -20,7 +20,7 @@ Auth::routes();
 
 
 // Route for users
-// Route::get('/home', 'HomeController@index')->name('home');
+// Route::get('/home', 'HomeController@index')->name('user');
 
 Route::get('admin', 'Users\Admin\AdminController@index')->name('admin.dashboard');
 
