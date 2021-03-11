@@ -10,16 +10,14 @@
 // Common
 @import 'common';
 
-
-
-
-
 //  ADMIN
 
 @import 'admin/dashboard';
 
 // DOCTOR
 
-
+@import 'doctor/dashboard';
 
 // GUEST
+
+@import 'guest/home';
