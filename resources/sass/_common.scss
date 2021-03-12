@@ -1,4 +1,4 @@
- // Container
+// Container
 
 .container_80 {
     max-width: 1170px;
@@ -6,7 +6,7 @@
     margin: auto;
 }
 
- // Flex
+// Flex
 
 .d_flex {
     display: flex;
@@ -21,4 +21,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+// Common tags
+ul{
+  list-style: none;
+}
+
+a:hover{
+  text-decoration: none;
+  color: inherit;
+}
+
+input{
+  outline: 0;
+}
+
+button, input{
+  border:0;
 }

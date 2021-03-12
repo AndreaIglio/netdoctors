@@ -18,11 +18,11 @@
 
 // GUEST
 
+@import 'guest/partials/navbar';
 @import 'guest/home';
 
 // Font
 
 body{
     font-family: 'poppins', sans-serif;
-    color: map-get($color-map, secondary_color_light) !important;
 }

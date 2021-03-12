@@ -50004,8 +50004,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\Romina Pc\Desktop\BOOLEAN\Classe 23\Progetto finale\Sito project work\netdoctors\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\Romina Pc\Desktop\BOOLEAN\Classe 23\Progetto finale\Sito project work\netdoctors\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\Users\tomma\Desktop\Boolean\PROGETTO FINALE REPO\netdoctors\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\tomma\Desktop\Boolean\PROGETTO FINALE REPO\netdoctors\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
