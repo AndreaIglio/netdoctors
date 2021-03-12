@@ -10981,26 +10981,61 @@ input {
   border: 0;
 }
 
+.w100 {
+  width: 100%;
+}
+
+.h100 {
+  height: 100%;
+}
+
 #navbar_guest {
-  height: 400px;
+  height: 500px;
   background: #023d71;
   background: linear-gradient(180deg, #023d71 0%, #4a95d9 100%);
 }
 
-#navbar_guest ul li {
+#navbar_guest .overlay {
+  width: 100%;
+  height: 100%;
+  background-position: 100% 130%;
+  background-repeat: no-repeat;
+  background-size: calc(1000px * 0.7) calc(510px * 0.7);
+}
+
+#navbar_guest .overlay ul {
+  height: 70px;
+  margin-bottom: 10px;
+}
+
+#navbar_guest .overlay ul li {
   text-transform: uppercase;
   margin-left: 10px;
   margin-right: 10px;
   margin-top: 40px;
 }
 
-#navbar_guest ul li a {
+#navbar_guest .overlay ul li a {
   color: black;
   font-size: 20px;
   font-weight: 500;
 }
 
-#navbar_guest input {
+#navbar_guest .overlay .container_80 {
+  height: calc(100% - 80px);
+}
+
+#navbar_guest .overlay .container_80 .searchbar {
+  justify-content: center;
+  padding-top: 80px;
+}
+
+#navbar_guest .overlay .container_80 .searchbar form {
+  width: 50%;
+  justify-content: center;
+}
+
+#navbar_guest .overlay .container_80 .searchbar form input {
   width: 80%;
   height: 50px;
   border-top-left-radius: 10px;
@@ -11008,8 +11043,8 @@ input {
   padding: 0 15px;
 }
 
-#navbar_guest button {
-  width: 19%;
+#navbar_guest .overlay .container_80 .searchbar form button {
+  width: 20%;
   height: 50px;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -11017,7 +11052,7 @@ input {
   transition: background-color 0.3s ease;
 }
 
-#navbar_guest button:hover {
+#navbar_guest .overlay .container_80 .searchbar form button:hover {
   background-color: #f25a60;
 }
 
