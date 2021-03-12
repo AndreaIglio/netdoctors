@@ -1,0 +1,24 @@
+ // Container
+
+.container_80 {
+    max-width: 1170px;
+    width: 80%;
+    margin: auto;
+}
+
+ // Flex
+
+.d_flex {
+    display: flex;
+}
+
+.d_flex_column {
+    display: flex;
+    flex-direction: column;
+}
+
+.d_flex_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
