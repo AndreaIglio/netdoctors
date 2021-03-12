@@ -21,9 +21,10 @@
 
 <body>
 
-    @yield('navbar')
+    @include('layouts.guest.partials.navbar')
     @yield('content')
-    @yield('footer')
+    @include('layouts.guest.partials.footer')
+
 
 
 
