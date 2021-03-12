@@ -1,23 +1,26 @@
 <nav id="navbar_guest">
-  <ul class="d_flex">
-    <li><a href="#">prova</a></li>
-    <li><a href="#">prova</a></li>
-    <li><a href="#">prova</a></li>
-    <li><a href="#">prova</a></li>
-  </ul>
+    <div class="overlay" style="background-image: url({{asset('img/Medical.png')}})">
 
-  <div class="row">
+        <ul class="d_flex">
+          <li><a href="#">prova</a></li>
+          <li><a href="#">prova</a></li>
+          <li><a href="#">prova</a></li>
+          <li><a href="#">prova</a></li>
+        </ul>
+      
+        <div class="container_80">
+            <div class="row h100">
+              <div class="col-lg-12 d_flex searchbar h100">
+                <form action="index.html" method="post" class="d_flex">
+                  <input type="text" name="search" value="" placeholder="Search for doctors">
+                  <button type="submit" name="button">GO</button>
+                </form>
+              </div>
+      
+        </div>
 
-    <div class="col-lg-6 col-md-12">
-      <form action="index.html" method="post" class="d_flex">
-        <input type="text" name="search" value="" placeholder="Search for doctors">
-        <button type="submit" name="button">GO</button>
-      </form>
+
+
     </div>
-
-    <div class="col-lg-6">
-      <img src="{{asset('img/Medical.png')}}" alt="">
-    </div>
-  </div>
 
 </nav>
